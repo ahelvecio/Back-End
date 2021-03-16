@@ -1,0 +1,36 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    table-layout: fixed;  
+    border-style: solid;
+    border-collapse: collapse;
+    border-radius: 25px;
+    empty-cells: show;
+    padding: 15px;   
+    left: 150px;
+    top: 150px;
+  }    
+h3 {
+    text-align: center;
+    color: blue;
+  }
+table, th, td {
+    border: 1px solid black;
+    font-size: 11pt;
+    border-collapse: collapse;
+  }
+#tablenotas {
+    width: 100%;
+    background-color: lightgrey;
+  }
+#tablenotas tr:nth-child(even) {
+    background-color: #eee;
+  }
+#tablenotas tr:nth-child(odd) {
+    background-color: #fff;
+  }
+#tablenotas th {
+    color: white;
+    background-color: lightslategray;
+  }
+    
